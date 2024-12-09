@@ -88,15 +88,6 @@ const saveImage = async(data)=>{
 	.then(async(x)=>{
         console.log('imagen creada!')
         return 'ok'
-        // await axios.get('http://192.168.10.80:5002/enviar/981302793/prueba')
-		// .then(function (response) {
-		// 	// handle success
-		// 	console.log('mensaje enviado al grupo');
-		// })
-		// .catch(function (error) {
-		// 	// handle error
-		// 	console.log(error);
-		// })
     })
     .catch(error =>{
         console.log('error al crear imagen !! ', error)
